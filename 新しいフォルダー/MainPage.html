@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="aesthetics.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Randify.com</h1>
+        </div>
+        <div id="Conditions">
+            <input class = "Inputfield" id="minValue" pattern="[0-9] {2}" type="text" placeholder="Min value" />
+            <input class = "Inputfield" id="maxValue" pattern="[0-9] {2}" type="text" placeholder="Max value" />
+        </div>
+        <button onclick = "Randomizer()" id="Random-button"> Press for random number!</button>
+        <script>
+            function Randomizer()
+            {
+                var _randNumber = Math.random() * parseFloat(document.getElementById("maxValue").value);
+                if (_randNumber < parseFloat(document.getElementById("minValue").value))
+                {
+                    Randomizer()
+                    return;
+                }
+                document.getElementById("floatResult").innerText = "The result is: " + _randNumber.toFixed(0);
+            }
+        </script>
+        <p id="floatResult"> </p>
+    </body>
+</html>

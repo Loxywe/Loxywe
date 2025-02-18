@@ -1,0 +1,72 @@
+html
+{
+    padding-top:0px;
+}
+#floatResult {
+    font-family: Verdana;
+    vertical-align: top;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+h1 {
+    font-family: Verdana;
+    vertical-align: top;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: radial-gradient(circle, rgb(121, 199, 131), rgb(120, 255, 137));
+    vertical-align: top;
+    margin: 0;
+}
+.Inputfield {
+    border-width: 5px;
+    background-color: palegreen;
+    border-radius: 250px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Verdana;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Random-button {
+    border-width:5px;
+
+    background-color:palegreen;
+    border-radius:250px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Verdana;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    padding-top:0px;
+    background-image: linear-gradient(rgb(247, 255, 248), rgb(232, 255, 234));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
